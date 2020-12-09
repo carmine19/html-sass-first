@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #323232;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: blue;
+}
+
+p:first-child {
+  color: red;
+}
+
+p:nth-child(2) {
+  color: green;
+}
+
+p:last-child {
+  color: blue;
+}
+
+.btn:first-child {
+  background: red;
+}
+
+.btn:nth-child(2) {
+  background: green;
+}
+
+.btn:last-child {
+  background: blue;
+}
+
